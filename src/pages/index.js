@@ -29,6 +29,7 @@ const IndexPage = () => (
           
   </Link>
   </p>
+  <p>
  <Link
           to="/projects-page/"
           style={{
@@ -38,7 +39,19 @@ const IndexPage = () => (
             textDecoration: `none`,
           }}
         > PROJECTS
-        </Link></p>
+        </Link>
+        </p>
+        <p>
+        <Link
+        to="/art-page/"
+        style={{
+          color: '#f3a712',
+          fontFamily: `monospace`,
+          fontSize: `20px`,
+          textDecoration: `none`,
+        }}
+      > ART
+      </Link></p></p>
         
   </div>
 )
